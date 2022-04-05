@@ -1,0 +1,15 @@
+{
+  "name": "anonymize-it",
+  "version": "1.0.0",
+  "main": "dist/app.js",
+  "author": "Marcin Borkowski <marborkowski@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha",
+    "build": "yarn test && rollup src/index.js --file dist/app.js --format umd --name anonymizeIT"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.2",
+    "rollup": "^2.70.1"
+  }
+}
