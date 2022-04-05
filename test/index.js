@@ -1,5 +1,10 @@
-var assert = require("assert");
-const { anonymizeString, anonymizeEmail } = require("../src/index");
+const assert = require("assert");
+const {
+  anonymizeString,
+  anonymizeEmail,
+  anonymizeCreditCardNumber,
+} = require("../src/index");
+const fakeCards = require("./data/fake-cards.json");
 
 describe("anonymyze-it", () => {
   describe("anonymizeString", () => {
@@ -77,6 +82,24 @@ describe("anonymyze-it", () => {
       assert.equal(anonymizeEmail({}), "");
       assert.equal(anonymizeEmail(undefined), "");
       assert.equal(anonymizeEmail(4344), "");
+    });
+  });
+
+  describe("anonymizeCreditCardNumber", () => {
+    fakeCards.forEach(({ CreditCard }) => {
+      it(`Issuer: ${CreditCard.IssuingNetwork}`, () => {
+        assert.equal(
+          anonymizeCreditCardNumber(CreditCard.CardNumber),
+          CreditCard.result
+        );
+      });
+    });
+
+    it("Can handle other strings", () => {
+      assert.equal(
+        anonymizeCreditCardNumber("12345678901234567890"),
+        "**** **** **** **** 7890"
+      );
     });
   });
 });

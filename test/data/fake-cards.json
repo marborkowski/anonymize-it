@@ -1,0 +1,142 @@
+[
+  {
+    "CreditCard": {
+      "IssuingNetwork": "American Express",
+      "CardNumber": 377482872281469,
+      "result": "**** **** 2281469"
+    }
+  },
+  {
+    "CreditCard": {
+      "IssuingNetwork": "American Express",
+      "CardNumber": 371588082659140,
+      "result": "**** **** 2659140"
+    }
+  },
+  {
+    "CreditCard": {
+      "IssuingNetwork": "Diners Club",
+      "CardNumber": 38761758742392,
+      "result": "**** **** 742392"
+    }
+  },
+  {
+    "CreditCard": {
+      "IssuingNetwork": "Diners Club",
+      "CardNumber": 30110803811216,
+      "result": "**** **** 811216"
+    }
+  },
+  {
+    "CreditCard": {
+      "IssuingNetwork": "Discover",
+      "CardNumber": 6011343644085225,
+      "result": "**** **** **** 5225"
+    }
+  },
+  {
+    "CreditCard": {
+      "IssuingNetwork": "Discover",
+      "CardNumber": 6011616862362925,
+      "result": "**** **** **** 2925"
+    }
+  },
+  {
+    "CreditCard": {
+      "IssuingNetwork": "enRoute",
+      "CardNumber": 201454890067610,
+      "result": "**** **** 0067610"
+    }
+  },
+  {
+    "CreditCard": {
+      "IssuingNetwork": "enRoute",
+      "CardNumber": 214971229293422,
+      "result": "**** **** 9293422"
+    }
+  },
+  {
+    "CreditCard": {
+      "IssuingNetwork": "JCB",
+      "CardNumber": 3337958266172920,
+      "result": "**** **** **** 2920"
+    }
+  },
+  {
+    "CreditCard": {
+      "IssuingNetwork": "JCB",
+      "CardNumber": 3088045781288935,
+      "result": "**** **** **** 8935"
+    }
+  },
+  {
+    "CreditCard": {
+      "IssuingNetwork": "JCB 15 digit",
+      "CardNumber": 180069374272646,
+      "result": "**** **** 4272646"
+    }
+  },
+  {
+    "CreditCard": {
+      "IssuingNetwork": "JCB 15 digit",
+      "CardNumber": 180089732012963,
+      "result": "**** **** 2012963"
+    }
+  },
+  {
+    "CreditCard": {
+      "IssuingNetwork": "MasterCard",
+      "CardNumber": 5276075599908736,
+      "result": "**** **** **** 8736"
+    }
+  },
+  {
+    "CreditCard": {
+      "IssuingNetwork": "MasterCard",
+      "CardNumber": 5599394084278996,
+      "result": "**** **** **** 8996"
+    }
+  },
+  {
+    "CreditCard": {
+      "IssuingNetwork": "Visa",
+      "CardNumber": 4929886509751048,
+      "result": "**** **** **** 1048"
+    }
+  },
+  {
+    "CreditCard": {
+      "IssuingNetwork": "Visa",
+      "CardNumber": 4024007180135187,
+      "result": "**** **** **** 5187"
+    }
+  },
+  {
+    "CreditCard": {
+      "IssuingNetwork": "Visa 13 digit",
+      "CardNumber": 4024007155571,
+      "result": "**** **** 55571"
+    }
+  },
+  {
+    "CreditCard": {
+      "IssuingNetwork": "Visa 13 digit",
+      "CardNumber": 4532869916781,
+      "result": "**** **** 16781"
+    }
+  },
+  {
+    "CreditCard": {
+      "IssuingNetwork": "Voyager",
+      "CardNumber": 869960752668116,
+      "result": "**** **** 2668116"
+    }
+  },
+  {
+    "CreditCard": {
+      "IssuingNetwork": "Voyager",
+      "CardNumber": 869921390563713,
+      "result": "**** **** 0563713"
+    }
+  }
+]
