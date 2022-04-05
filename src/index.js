@@ -30,6 +30,10 @@ const replaceRange = (str, replacement = DEFAULT_REPLACEMENT_STRING) =>
   });
 
 const anonymizeString = (value, replacement) => {
+  if (!value || typeof value !== "string") {
+    return "";
+  }
+
   const separateWords = value.match(REPLACABLE_WORDS);
 
   return separateWords
@@ -40,6 +44,10 @@ const anonymizeString = (value, replacement) => {
 };
 
 const anonymizeEmail = (value, replacement) => {
+  if (!value || typeof value !== "string") {
+    return "";
+  }
+
   if (!EMAIL_PATTERN.test(value)) {
     console.error(
       "Incorrect email address format. The entire string has been anonymized."

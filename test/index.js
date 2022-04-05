@@ -35,6 +35,14 @@ describe("anonymyze-it", () => {
       assert.equal(anonymizeString("逆風尿"), "***");
       assert.equal(anonymizeString("逆風尿 Yes Пи"), "*** *** **");
     });
+
+    it("It should return empty string if value length is equal 0 or value is not a string.", () => {
+      assert.equal(anonymizeString(""), "");
+      assert.equal(anonymizeString(null), "");
+      assert.equal(anonymizeString({}), "");
+      assert.equal(anonymizeString(undefined), "");
+      assert.equal(anonymizeString(4344), "");
+    });
   });
 
   describe("anonymizeEmail", () => {
@@ -61,6 +69,14 @@ describe("anonymyze-it", () => {
         anonymizeEmail("dsadsdsdasdsadasdasdsa@fdsfsfds fsdfsd@FFDSFDSF-.PL"),
         "******************************* *******************"
       );
+    });
+
+    it("It should return empty string if value length is equal 0 or value is not a string.", () => {
+      assert.equal(anonymizeEmail(""), "");
+      assert.equal(anonymizeEmail(null), "");
+      assert.equal(anonymizeEmail({}), "");
+      assert.equal(anonymizeEmail(undefined), "");
+      assert.equal(anonymizeEmail(4344), "");
     });
   });
 });
