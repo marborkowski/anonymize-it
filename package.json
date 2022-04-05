@@ -1,6 +1,6 @@
 {
   "name": "anonymize-it",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/dist.min.js",
   "author": "Marcin Borkowski <marborkowski@gmail.com>",
   "license": "MIT",
