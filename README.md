@@ -1,6 +1,8 @@
 
 # anonymize-it
 
+![Node.js CI](https://github.com/marborkowski/anonymize-it/actions/workflows/node.js.yml/badge.svg?branch=main) ![CodeQL](https://github.com/marborkowski/anonymize-it/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)
+
 anonymize-it allows you to anonymize from the end user those data that you may consider as being sensitive. For example, such data could be email addresses, phone numbers, names, credit card numbers. 
 
 anonymize-it is a zero dependency library, so it weighs **only 1.25 KB ** 💪
